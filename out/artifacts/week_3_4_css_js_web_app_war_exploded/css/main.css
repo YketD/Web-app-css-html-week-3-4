@@ -22,6 +22,7 @@ header{
 }
 nav{
     height: 40px;
+
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d1d1d1+0,e8f3f5+13,b0dfe8+46,e8f3f5+88,d1d1d1+100 */
     background: rgb(209,209,209); /* Old browsers */
     background: -moz-linear-gradient(top, rgba(209,209,209,1) 0%, rgba(232,243,245,1) 13%, rgba(176,223,232,1) 46%, rgba(232,243,245,1) 88%, rgba(209,209,209,1) 100%); /* FF3.6-15 */
@@ -30,6 +31,36 @@ nav{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#d1d1d1',GradientType=0 ); /* IE6-9 */
 
 }
+
+nav li{
+    display: inline;
+}
+
+nav li:not(:first-child):before{
+    content:"  |  ";
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
 
 footer{
 }
