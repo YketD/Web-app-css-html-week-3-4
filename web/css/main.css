@@ -1,1 +1,35 @@
-body{background-image: url("../images/background_home_test.jpg")}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #e8f3f5;
+}
+
+#logo_main{
+    width: 200px;
+
+}
+header{
+
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9feff2+0,ade2ed+47,ade2ed+47,e8f3f5+100 */
+    background: rgb(159,239,242); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(159,239,242,1) 0%, rgba(173,226,237,1) 47%, rgba(173,226,237,1) 47%, rgba(232,243,245,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(159,239,242,1) 0%,rgba(173,226,237,1) 47%,rgba(173,226,237,1) 47%,rgba(232,243,245,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(159,239,242,1) 0%,rgba(173,226,237,1) 47%,rgba(173,226,237,1) 47%,rgba(232,243,245,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9feff2', endColorstr='#e8f3f5',GradientType=0 ); /* IE6-9 */
+}
+nav{
+    height: 40px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d1d1d1+0,e8f3f5+13,b0dfe8+46,e8f3f5+88,d1d1d1+100 */
+    background: rgb(209,209,209); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(209,209,209,1) 0%, rgba(232,243,245,1) 13%, rgba(176,223,232,1) 46%, rgba(232,243,245,1) 88%, rgba(209,209,209,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(209,209,209,1) 0%,rgba(232,243,245,1) 13%,rgba(176,223,232,1) 46%,rgba(232,243,245,1) 88%,rgba(209,209,209,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(209,209,209,1) 0%,rgba(232,243,245,1) 13%,rgba(176,223,232,1) 46%,rgba(232,243,245,1) 88%,rgba(209,209,209,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#d1d1d1',GradientType=0 ); /* IE6-9 */
+
+}
+
+footer{
+}
