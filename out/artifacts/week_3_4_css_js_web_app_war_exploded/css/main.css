@@ -40,6 +40,9 @@ nav li:not(:first-child):before{
     content:"  |  ";
 }
 
+#slider img{
+    display: none;
+}
 
 .dropdown {
     position: relative;

@@ -4,7 +4,7 @@
 
 
 (function cycler() {
-    imgs = document.getElementById('slider').getElementsByTagName('img')
+    imgs = document.getElementById('slider').getElementsByTagName('img');
     index = 0;
     imgs[0].style.display = 'block';
     setInterval(function changeimage() {
@@ -12,7 +12,7 @@
         index = (index + 1) % imgs.length;
         imgs[index].style.display = 'block';
     }, 5000);
-    
+
 }());
 
 
