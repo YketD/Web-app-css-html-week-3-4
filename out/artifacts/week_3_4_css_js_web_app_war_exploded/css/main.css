@@ -5,10 +5,49 @@
 body{
     background-color: #e8f3f5;
 }
+header a,footer{
+    padding:0px 300px;
+}
 
+#main_content{
+    background-color: #f9f9f9;
+    margin: 10px 300px;
+    padding:10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+#main_menu {
+    text-align: center;
+}
+
+#slider_container, #main_text_homepage{
+    background-color: #dcbf9f;
+    align-content:center;
+    width: 550px;
+    border-radius:10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+#main_text_homepage{
+    padding: 10px;
+    position: inherit;
+    right:5px;
+    top: 5px;
+}
+#slider{
+    padding: 25px;
+
+}
+.slider_image{
+    width: 500px;
+    height:300px;
+
+}
+
+nav ul li a{
+    font-size:1.6em;
+}
 #logo_main{
     width: 200px;
-
 }
 header{
 
