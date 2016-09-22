@@ -36,6 +36,7 @@ header a,footer{
     margin: 1%;
     width: 40%;
     float: right;
+    position: relative;
 }
 #slider{
     padding: 25px;

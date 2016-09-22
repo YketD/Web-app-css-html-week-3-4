@@ -23,6 +23,7 @@ header a,footer{
     margin: 1%;
     float:left;
     width:60%;
+    position: absolute;
 }
 #slider_container, #main_text_homepage{
     background-color: #dcbf9f;
@@ -36,6 +37,7 @@ header a,footer{
     margin: 1%;
     width: 40%;
     float: right;
+    position: relative;
 }
 #slider{
     padding: 25px;
