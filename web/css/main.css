@@ -199,10 +199,19 @@ header a, footer {
 }
 
 /* Content */
+#main_content {
+    background-color:#cdf0f6 ;
+    margin:0 auto;
+    width: calc(100% - 6em);
+    padding:2% 0%;
+    position: relative;
+    border-radius: 5px;
+    max-width: 70em;
+}
 
 section .inner {
     max-width: 65em;
-    width: calc(100% - 6em);
+    width: calc(100% - 8em);
     margin: 0 auto;
     background-color: #fff;
     border-radius: 3px;
