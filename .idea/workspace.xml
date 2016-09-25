@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8b87a81-edd8-42d5-b1d8-6a5c59e4d180" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/menu.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/week_3_4_css_js_web_app_war_exploded/images/vakantiefeest logo.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/vakantiefeest logo.jpg" afterPath="$PROJECT_DIR$/web/images/vakantiefeest_logo.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/week_3_4_css_js_web_app_war_exploded/contact.html" afterPath="$PROJECT_DIR$/out/artifacts/week_3_4_css_js_web_app_war_exploded/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/week_3_4_css_js_web_app_war_exploded/css/main.css" afterPath="$PROJECT_DIR$/out/artifacts/week_3_4_css_js_web_app_war_exploded/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/week_3_4_css_js_web_app_war_exploded/home.html" afterPath="$PROJECT_DIR$/out/artifacts/week_3_4_css_js_web_app_war_exploded/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/week_3_4_css_js_web_app_war_exploded/searchpage.html" afterPath="$PROJECT_DIR$/out/artifacts/week_3_4_css_js_web_app_war_exploded/searchpage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/week_3_4_css_js_web_app_war_exploded/specialoffers.html" afterPath="$PROJECT_DIR$/out/artifacts/week_3_4_css_js_web_app_war_exploded/specialoffers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/contact.html" afterPath="$PROJECT_DIR$/web/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/main.css" afterPath="$PROJECT_DIR$/web/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/home.html" afterPath="$PROJECT_DIR$/web/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/searchpage.html" afterPath="$PROJECT_DIR$/web/searchpage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/specialoffers.html" afterPath="$PROJECT_DIR$/web/specialoffers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/imagecycler.js" afterPath="$PROJECT_DIR$/web/js/imagecycler.js" />
     </list>
     <ignored path="week-3-4-css-js-web-app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,28 +29,28 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+            <state relative-caret-position="68">
+              <caret line="67" column="52" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="145" column="23" selection-start-line="145" selection-start-column="23" selection-end-line="145" selection-end-column="23" />
+            <state relative-caret-position="113">
+              <caret line="345" column="22" selection-start-line="345" selection-start-column="22" selection-end-line="345" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="imagecycler.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="imagecycler.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/js/imagecycler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -99,12 +88,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/js/imagecycler.js" />
         <option value="$PROJECT_DIR$/web/specialoffers.html" />
         <option value="$PROJECT_DIR$/web/searchpage.html" />
         <option value="$PROJECT_DIR$/web/contact.html" />
         <option value="$PROJECT_DIR$/web/js/menu.js" />
         <option value="$PROJECT_DIR$/web/home.html" />
+        <option value="$PROJECT_DIR$/web/js/imagecycler.js" />
         <option value="$PROJECT_DIR$/web/css/main.css" />
       </list>
     </option>
@@ -812,12 +801,12 @@
       <workItem from="1473938337219" duration="5209000" />
       <workItem from="1473958898581" duration="5160000" />
       <workItem from="1474029381762" duration="473000" />
-      <workItem from="1474724110843" duration="11872000" />
+      <workItem from="1474724110843" duration="13745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24475000" />
+    <option name="totallyTimeSpent" value="26348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
@@ -1204,29 +1193,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/imagecycler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        <state relative-caret-position="68">
+          <caret line="67" column="52" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="145" column="23" selection-start-line="145" selection-start-column="23" selection-end-line="145" selection-end-column="23" />
+        <state relative-caret-position="113">
+          <caret line="345" column="22" selection-start-line="345" selection-start-column="22" selection-end-line="345" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/imagecycler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

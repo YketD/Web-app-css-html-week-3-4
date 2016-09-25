@@ -299,12 +299,6 @@ header p {
     }
 }
 
-/* Slider */
-
-#slider img {
-    display: none;
-}
-
 /* Image */
 
 .image {
@@ -352,4 +346,10 @@ h2 {
     margin: 0 0 1em 0;
     text-transform: uppercase;
     color: #ff0000;
+}
+
+/* Slider */
+
+.slider img {
+    display: none;
 }
