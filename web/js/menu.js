@@ -2,10 +2,10 @@
  * Created by Murdock on 25/9/2016.
  */
 function toggleNav() {
-    var x = document.getElementById("nav");
-    if (x.className === "nav") {
+    var x = document.getElementById("menu");
+    if (x.className === "menu") {
         x.className += " responsive";
     } else {
-        x.className = "nav";
+        x.className = "menu";
     }
 }

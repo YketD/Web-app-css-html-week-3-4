@@ -49,7 +49,7 @@ header a, footer {
 
 /* Header */
 
-#header {
+#main_logo {
     background: rgb(159,239,242); /* Old browsers */
     background: -moz-linear-gradient(top, rgba(159,239,242,1) 0%, rgba(173,226,237,1) 47%, rgba(173,226,237,1) 47%, rgba(232,243,245,1) 100%);
     background: -webkit-linear-gradient(top, rgba(159,239,242,1) 0%,rgba(173,226,237,1) 47%,rgba(173,226,237,1) 47%,rgba(232,243,245,1) 100%);
@@ -65,14 +65,14 @@ header a, footer {
     z-index: 10001;
 }
 
-#header .inner {
+#main_logo .inner {
     max-width: 65em;
     width: calc(100% - 6em);
     margin: 0 auto;
     position: relative;
 }
 
-#header .logo {
+#main_logo .logo {
     height: inherit;
     left: 0;
     margin: 0;
@@ -82,12 +82,12 @@ header a, footer {
     padding: 0;
 }
 
-#header .logo img {
+#main_logo .logo img {
     position: absolute;
     width: 185px;
 }
 
-#header a {
+#main_logo a {
     -moz-transition: color 0.2s ease-in-out;
     -webkit-transition: color 0.2s ease-in-out;
     -ms-transition: color 0.2s ease-in-out;
@@ -100,21 +100,21 @@ header a, footer {
     font-size: .85em;
 }
 
-#header a:hover {
+#main_logo a:hover {
     color: rgba(255, 255, 255, 0.75);
 }
 
-#header a:last-child {
+#main_logo a:last-child {
     padding-right: 0em;
 }
 
 /* Menu */
 
-#nav li {
+.menu_item {
     display: inline-block;
 }
 
-#nav {
+#menu {
     margin: 0 0 0 14em;
 }
 
@@ -143,12 +143,12 @@ header a, footer {
 }
 
 /* Dropdown */
-.nav-dropdown-content {
+.menu_dropdown_content {
     display: none;
 }
 
 @media not screen and (max-width:1041px) {
-    .nav-dropdown:hover .nav-dropdown-content {
+    .menu_dropdown:hover .menu_dropdown_content {
         display: block;
         position: fixed;
         background-color: rgba(141, 190, 226, 0.75);
@@ -157,7 +157,7 @@ header a, footer {
 }
 
 @media screen and (max-width:1041px) {
-    .nav li a {
+    .menu_item_destination {
         display: none;
     }
 
@@ -166,26 +166,26 @@ header a, footer {
         display: inline-block;
     }
 
-    .nav.responsive li {
+    #menu_item.responsive {
         float: none;
     }
 
-    .nav.responsive li a {
+    .menu_item_destination.responsive{
         display: block;
     }
 
-    #nav li {
+    .menu_item{
         display: inline;
     }
 
-    .nav.responsive {
+    #menu.responsive {
         position: relative;
         background-color: #b9b1b1;
         display: block;
         margin: 4em 0;
     }
 
-    .nav-dropdown-content {
+    .menu_dropdown_content {
         display: block;
         margin: 0 0 0 2.5em;
         background-color: rgb(121, 121, 121);
