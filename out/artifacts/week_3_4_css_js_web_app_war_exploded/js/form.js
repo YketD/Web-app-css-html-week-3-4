@@ -11,7 +11,7 @@ function validateForm() {
     var form = document.forms["contactform"];
 
     if (isFieldEmpty(form["firstname"])) {
-        feedback += "Het verplichte veld 'voornaam' bevat geen geldige tekst";
+        feedback += "Het verplichte veld 'voornaam' bevat geen geldige tekst\n";
         result = false;
     }
 
@@ -34,7 +34,7 @@ function validateForm() {
         feedback += "Het verplichte veld 'bericht' bevat geen geldige tekst\n";
         result = false;
     }
-   
+
     if (result)
         feedback = "Dankuwel voor uw bericht, we zullen het zo spoedig mogelijk behandelen";
 
