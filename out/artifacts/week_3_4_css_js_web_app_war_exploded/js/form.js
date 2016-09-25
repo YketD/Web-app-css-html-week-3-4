@@ -5,6 +5,14 @@ function isFieldEmpty(field) {
     return (field.value == null || field.value == "");
 }
 
+function clearForm() {
+    document.getElementById("firstname").value = "";
+    document.getElementById("lastname").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("zip").value = "";
+    document.getElementById("message").innerHTML = "";
+}
+
 function validateForm() {
     var result = true;
     var feedback = "";
