@@ -1,70 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta charset="UTF-8" />
     <title>Vakantiefeest vakanties!</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
 </head>
 <body>
+    <!-- Header -->
+    <header id="header">
+        <div class="inner">
+            <a href="home.html" class="logo">
+                <img src="images/vakantiefeest_logo.jpg" id="logoImage" />
+            </a>
 
-<header>
-    <a href="home.html"><img id="logo_main" src="images/vakantiefeest%20logo.jpg"></a>
-</header>
-<nav>
-    <ul id="main_menu">
-        <li><a href="home.html">Home</a></li>
-        <li><a href="searchpage.html">Zoek</a></li>
-        <li>
-            <div class="dropdown">
-                bestemming
-                <div class="dropdown-content">
-                    <p>land1</p>
-                    <p>land2</p>
-                    <p>land3</p>
-                </div>
-            </div>
+            <!-- Navigation -->
+            <nav id="nav" class="nav">
+                <ul>
+                    <li>
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="searchpage.html">Zoek</a>
+                    </li>
+                    <li class="nav-dropdown">
+                        <a href="javascript:void(0);">Bestemming</a>
+                        <div class="nav-dropdown-content">
+                            <a href="javascript:void(0);">Land1</a>
+                            <a href="javascript:void(0);">Land2</a>
+                            <a href="javascript:void(0);">Land3</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="specialoffers.html">Speciale aanbiedingen!</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <a href="javascript:void(0);" onclick="toggleNav()" class="navToggle">&#9776;</a>
 
-        </li>
-        <li><a href="specialoffers.html">Speciale aanbiedingen!</a></li>
-        <li><a href="contact.html">conact</a></li>
-
-    </ul>
-</nav>
-
-<section id="main_content">
-
-    <div id="slider_with_description_div">
-        <section id="slider_container">
-    <div id="slider">
-        <img class="slider_image" src="images/locations/ibizahead.jpg" alt='ibiza destination'>
-        <img class="slider_image" src="images/locations/lasvegashead.jpg" alt = 'las vegas destination'>
-        <img class="slider_image" src="images/locations/portohead.jpg" alt = 'porto destination'>
-    </div>
-</section>
-        <article id="main_text_homepage">
-        <h2>VakantieFeest!</h2>
-        <h1>Welkom op de website van VakantieFeest!</h1>
-        <p>Op deze website vind u de meest prachtige locaties en de meest spannende vakanties
-            zodat jij vanuit je luie stoel een heerlijke vakantie kunt boeken. op feestvakanties.nl
-            richting wij ons vooral op locaties waar je het beste kunt feesten en krijg je van ons
-            populaire locaties zodat je zo gemakkelijk mogelijk een feest van een vakantie hebt!</p>
-    </article>
-    </div>
-
-
-
-    <section>
-
+    <!-- Welcome -->
+    <section id="welcoming">
+        <div class="inner">
+            <header>
+                <h2>VakantieFeest!</h2>
+            </header>
+            <p>
+                Op deze website vind u de meest prachtige locaties en de meest spannende vakanties
+                zodat jij vanuit je luie stoel een heerlijke vakantie kunt boeken. op feestvakanties.nl
+                richting wij ons vooral op locaties waar je het beste kunt feesten en krijg je van ons
+                populaire locaties zodat je zo gemakkelijk mogelijk een feest van een vakantie hebt!
+            </p>
+        </div>
     </section>
 
+    <!-- Featured trips -->
+    <section id="featuredTrips">
+        <div class="inner">
+            <article>
+                <div class="content">
+                    <header>
+                        <h3>Pellentesque adipis</h3>
+                    </header>
+                    <div class="image fit" id="slider">
+                        <img class="slider_image" src="images/locations/ibizahead.jpg" alt="ibiza destination" />
+                        <img class="slider_image" src="images/locations/lasvegashead.jpg" alt="las vegas destination" />
+                        <img class="slider_image" src="images/locations/portohead.jpg" alt="porto destination" />
+                    </div>
+                    <p>Cumsan mollis eros. Pellentesque a diam sit amet mi magna ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa sit amet lorem ipsum feugiat tempus.</p>
+                </div>
+            </article>
 
+            <article>
+                <div class="content">
+                    <header>
+                        <h3>Morbi interdum mol</h3>
+                    </header>
+                    <div class="image fit">
+                        <img src="images/locations/portohead.jpg" alt="porto destination" />
+                    </div>
+                    <p>Cumsan mollis eros. Pellentesque a diam sit amet mi magna ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa sit amet lorem ipsum feugiat tempus.</p>
+                </div>
+            </article>
+        </div>
+    </section>
 
-
-<footer>
-    "vakantiefeest.nl" alle rechten voorbehouden
-</footer>
-
-</section>
-<script src="js/imagecycler.js"></script>
+    <script src="js/menu.js" type="text/javascript"></script>
+    <script src="js/imagecycler.js" type="text/javascript"></script>
 </body>
 </html>
