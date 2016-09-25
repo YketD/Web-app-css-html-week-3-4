@@ -49,15 +49,14 @@ header a, footer {
 
 /* Header */
 
-#main_logo {
+#header {
     background: rgb(159,239,242); /* Old browsers */
     background: -moz-linear-gradient(top, rgba(159,239,242,1) 0%, rgba(173,226,237,1) 47%, rgba(173,226,237,1) 47%, rgba(232,243,245,1) 100%);
     background: -webkit-linear-gradient(top, rgba(159,239,242,1) 0%,rgba(173,226,237,1) 47%,rgba(173,226,237,1) 47%,rgba(232,243,245,1) 100%);
     background: linear-gradient(to bottom, rgba(159,239,242,1) 0%,rgba(173,226,237,1) 47%,rgba(173,226,237,1) 47%,rgba(232,243,245,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9feff2', endColorstr='#e8f3f5',GradientType=0 );
-    height: 5em;
+    height: 8em;
     left: 0;
-    line-height: 5em;
     position: fixed;
     text-align: left;
     top: 0;
@@ -65,67 +64,74 @@ header a, footer {
     z-index: 10001;
 }
 
-#main_logo .inner {
+#header .inner {
     max-width: 65em;
     width: calc(100% - 6em);
     margin: 0 auto;
     position: relative;
 }
 
-#main_logo .logo {
+#header .logo {
     height: inherit;
     left: 0;
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 25%;
+    top: 1em;
     padding: 0;
-}
-
-#main_logo .logo img {
-    position: absolute;
     width: 185px;
 }
 
-#main_logo a {
+#header a {
     -moz-transition: color 0.2s ease-in-out;
     -webkit-transition: color 0.2s ease-in-out;
     -ms-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
+    -moz-text-stroke: 0.5px black;
+    -webkit-text-stroke: 0.5px black;
+    -ms-text-stroke: 0.5px black;
+    text-stroke: 0.5px black;
+    transition: color 0.5s ease-in-out;
     padding: 0 0 0 2em;
-    color: #ffffff;
+    color: #feb642;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: .85em;
+    font-size: 1.2em;
 }
 
-#main_logo a:hover {
+#header a:hover {
     color: rgba(255, 255, 255, 0.75);
 }
 
-#main_logo a:last-child {
+#header a:last-child {
     padding-right: 0em;
 }
 
 /* Menu */
 
-.menu_item {
+.nav li {
     display: inline-block;
 }
 
 #menu {
-    margin: 0 0 0 14em;
+    padding: 0.5em;
+    margin: 0;
+    position: relative;
+    top: 5em;
+    left: 0;
+    background: rgb(209,209,209); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(209,209,209,1) 0%, rgba(232,243,245,1) 13%, rgba(232,243,245,1) 88%, rgba(209,209,209,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(209,209,209,1) 0%,rgba(232,243,245,1) 13%,rgba(232,243,245,1) 88%,rgba(209,209,209,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(209,209,209,1) 0%,rgba(232,243,245,1) 13%,rgba(232,243,245,1) 88%,rgba(209,209,209,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#d1d1d1',GradientType=0 ); /* IE6-9 */
 }
 
 .navToggle {
-    position: fixed;
+    display: none;
+    position: relative;
     text-decoration: none;
     height: 4em;
-    right: 3em;
-    top: .75em;
-    width: 4em;
-    display: none;
+    left: 90%;
     z-index: 10002;
 }
 
@@ -143,49 +149,49 @@ header a, footer {
 }
 
 /* Dropdown */
-.menu_dropdown_content {
+.nav-dropdown-content {
     display: none;
 }
 
 @media not screen and (max-width:1041px) {
-    .menu_dropdown:hover .menu_dropdown_content {
+    .nav-dropdown:hover .nav-dropdown-content {
         display: block;
         position: fixed;
+        top: 7em;
         background-color: rgba(141, 190, 226, 0.75);
         padding: 0 1.5em 0 0;
     }
 }
 
 @media screen and (max-width:1041px) {
-    .menu_item_destination {
+    .nav li a {
         display: none;
     }
 
-    .navToggle {
-        float: right;
-        display: inline-block;
-    }
-
-    #menu_item.responsive {
+    .nav.responsive li {
         float: none;
     }
 
-    .menu_item_destination.responsive{
+    .nav.responsive li a {
         display: block;
     }
 
-    .menu_item{
+    .navToggle {
         display: inline;
     }
 
-    #menu.responsive {
+    #menu li {
+        display: inline;
+    }
+
+    .nav.responsive {
         position: relative;
         background-color: #b9b1b1;
         display: block;
         margin: 4em 0;
     }
 
-    .menu_dropdown_content {
+    .nav-dropdown-content {
         display: block;
         margin: 0 0 0 2.5em;
         background-color: rgb(121, 121, 121);
@@ -238,8 +244,12 @@ header p {
 
 /* Featured trips content */
 
-#featuredTrips {
-    padding: 3em 0 0 0;
+.firstContent {
+    padding: 8em 0 0 0;
+}
+
+.featuredContent {
+    padding: 2em 0 0 0;
 }
 
 #featuredTrips .inner {
@@ -327,18 +337,12 @@ header p {
 /* Welcoming content */
 
 #welcoming {
-    padding: 6em 0 4em 0;
-}
-
-@media screen and (max-width: 980px) {
-    #welcoming {
-        padding: 4em 0 2em 0;
-    }
+    padding: 8em 0 0 0;
 }
 
 @media screen and (max-width: 736px) {
     #welcoming {
-        padding: 2em 0 0.1em 0;
+        padding: 9em 0 0.1em 0;
     }
 }
 
