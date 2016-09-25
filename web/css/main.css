@@ -238,6 +238,10 @@ header p {
 
 /* Featured trips content */
 
+#featuredTrips {
+    padding: 3em 0 0 0;
+}
+
 #featuredTrips .inner {
     display: -ms-flexbox;
     display: -moz-flex;
