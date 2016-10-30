@@ -364,9 +364,3 @@ h2 {
     text-transform: uppercase;
     color: #ff0000;
 }
-
-/* Slider */
-
-.slider img {
-    display: none;
-}

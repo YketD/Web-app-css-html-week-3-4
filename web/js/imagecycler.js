@@ -1,31 +1,16 @@
 /**
  * Created by yketd on 15-9-2016.
  */
-var cyclers = [];
+var imagesSlider1 = ["ibizahead.jpg", "lasvegashead.jpg", "portohead.jpg"];
+var imagesSlider2 = ["londonhead.jpg", "portosub2.jpg", "ibizahead.jpg"];
+var sliderIdx1 = 0, sliderIdx2 = 0;
 
-(function cycler() {
-    var imgs, index, obj;
-    var sliders = document.getElementsByClassName("slider");
+// Start slider 1
+setInterval(function() {
+    document.getElementById("slider1").src = "images/locations/" + imagesSlider1[sliderIdx1++ % imagesSlider1.length];
+}, 5000);
 
-    for (var idx in sliders) {
-        if (!sliders.hasOwnProperty(idx)) continue; // Prototype properties
-        obj = sliders[idx];
-
-        for (var item in obj) {
-            index = 0;
-            imgs = obj.getElementsByTagName("img");
-            cyclers[idx] = {
-                "imageIdx": index,
-                "cycler": item,
-                "images": imgs
-            };
-
-            imgs[0].style.display = "block";
-            setInterval(function (idx) {
-                cyclers[idx].images[index].style.display = "none";
-                index = (index + 1) % cyclers[idx].images.length;
-                cyclers[idx].images[index].style.display = "block";
-            }, 5000, idx);
-        }
-    }
-}());
+// Start slider 2
+setInterval(function() {
+    document.getElementById("slider2").src = "images/locations/" + imagesSlider2[sliderIdx2++ % imagesSlider2.length];
+}, 5000);
